@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Controle de Vendedores</title>
+</head>
+<body>
+    <h1>Controle de Vendedores</h1>
+
+    <!-- Formulário de Registro de Vendedores -->
+    <form>
+        <label for="codigoVendedor">Código do Vendedor:</label>
+        <input type="text" id="codigoVendedor" name="codigoVendedor"><br>
+
+        <label for="usuarioVendedor">Usuário do Vendedor:</label>
+        <input type="text" id="usuarioVendedor" name="usuarioVendedor"><br>
+
+        <button type="button" onclick="incluirVendedor()">Incluir Vendedor</button>
+        <button type="button" onclick="alterarVendedor()">Alterar Vendedor</button>
+        <button type="button" onclick="buscarVendedor()">Buscar Vendedor</button>
+        <button type="button" onclick="excluirVendedor()">Excluir Vendedor</button>
+    </form>
+
+    <script>
+        function incluirVendedor() {
+            alert("Vendedor incluído!");
+        }
+        function alterarVendedor() {
+            alert("Vendedor alterado!");
+        }
+        function buscarVendedor() {
+            alert("Buscando vendedor...");
+        }
+        function excluirVendedor() {
+            alert("Vendedor excluído!");
+        }
+    </script>
+</body>
+</html>

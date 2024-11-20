@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Veículos Disponíveis para Venda</title>
+</head>
+<body>
+    <h1>Controle de Veículos Disponíveis para Venda</h1>
+    <form>
+        <input type="text" placeholder="Número do Chassi" id="numeroChassi" name="numeroChassi">
+
+        <input type="text" placeholder="Placa" id="placa" name="placa">
+       
+        <input type="text" placeholder="Marca" id="marca" name="marca">
+
+        <input type="text" placeholder="Modelo" id="modelo" name="modelo">
+
+        <input type="number" placeholder="Ano de Fabricação" id="anoFabricacao" name="anoFabricacao">
+
+        <input type="number" placeholder="Ano do Modelo" id="anoModelo" name="anoModelo">
+
+        <input type="text" placeholder="Cor" id="cor" name="cor">
+
+        <input type="number" placeholder="Valor" id="valor" name="valor">
+
+        <div>
+            <button type="button" onclick="incluirVeiculo()">Incluir</button>
+            <button type="button" onclick="alterarVeiculo()">Alterar</button>
+            <button type="button" onclick="buscarVeiculo()">Buscar</button>
+            <button type="button" onclick="excluirVeiculo()">Excluir</button>
+        </div>
+    </form>
+
+    <script>
+        function incluirVeiculo() {
+            alert("Veículo incluído!");
+        }
+        function alterarVeiculo() {
+            alert("Veículo alterado!");
+        }
+        function buscarVeiculo() {
+            alert("Buscando veículo...");
+        }
+        function excluirVeiculo() {
+            alert("Veículo excluído!");
+        }
+    </script>
+</html>
+
+</body>
+</html>

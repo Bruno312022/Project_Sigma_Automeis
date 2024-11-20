@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Montadoras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Montadoras</h1>
+        <form id="montadoraForm">
+            <label for="cnpj">CNPJ:</label>
+            <input type="text" id="cnpj" name="cnpj" required>
+            
+            <label for="razaoSocial">Razão Social:</label>
+            <input type="text" id="razaoSocial" name="razaoSocial" required>
+            
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" name="marca" required>
+            
+            <label for="contato">Contato:</label>
+            <input type="text" id="contato" name="contato" required>
+            
+            <label for="telefoneComercial">Telefone Comercial:</label>
+            <input type="text" id="telefoneComercial" name="telefoneComercial" required>
+            
+            <label for="celular">Celular:</label>
+            <input type="text" id="celular" name="celular" required>
+            
+            <button type="button" onclick="incluirMontadora()">Incluir</button>
+            <button type="button" onclick="alterarMontadora()">Alterar</button>
+            <button type="button" onclick="buscarMontadora()">Buscar</button>
+            <button type="button" onclick="excluirMontadora()">Excluir</button>
+        </form>
+    </div>
+
+    <script>
+        function incluirMontadora() {
+            // Função para incluir montadora
+            alert('Montadora incluída com sucesso!');
+        }
+
+        function alterarMontadora() {
+            // Função para alterar montadora
+            alert('Montadora alterada com sucesso!');
+        }
+
+        function buscarMontadora() {
+            // Função para buscar montadora
+            alert('Montadora buscada com sucesso!');
+        }
+
+        function excluirMontadora() {
+            // Função para excluir montadora
+            alert('Montadora excluída com sucesso!');
+        }
+    </script>
+</body>
+</html>
